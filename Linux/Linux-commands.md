@@ -146,3 +146,15 @@ The **hostnamectl** command is used to set the hostname using terminal without o
 hostnamectl
 ```
 
+</br>
+
+## CHSH
+
+</br>
+
+#### To change the a login shell 
+
+```
+chsh -s /bin/zsh
+```
+The above command change default shell in zsh.
