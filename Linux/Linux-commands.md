@@ -157,4 +157,11 @@ hostnamectl
 ```
 chsh -s /bin/zsh
 ```
+
 The above command change default shell in zsh.
+
+## To clear the DNS cache
+
+```
+sudo systemd-resolve --flush-caches
+```
