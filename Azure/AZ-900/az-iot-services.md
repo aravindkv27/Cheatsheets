@@ -27,5 +27,13 @@
     - it is based on Linux.
     - Az security service trusted device-to-cloud communication.
 
-## Azure Big Data & Analytics Services
+## Azure Artificial Intelligence (AI) Services
 
+### Azure Machine Learning
+
+- Train -> Package -> Validate -> Deploy -> Monitor -> Train
+- Python, R
+- Designer
+- Auto ML
+- compute 
+- Pipelines
