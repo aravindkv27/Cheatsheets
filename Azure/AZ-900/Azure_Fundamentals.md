@@ -85,3 +85,11 @@ Cloud means creating a application whatever like web, AI, ML, Devops. Cloud prov
 
     - Feature allows grouping of vm located in az virtual network
     - Designed to reduce the maintenance effort
+
+### Azure user-defined Routes
+
+- Custom, routes(UDRs)
+- Managed via azure route table resource
+- Associated with a zero or more virtual network subnets
+- Designed to override azure default routing or add new routes
+
