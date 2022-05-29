@@ -165,3 +165,11 @@ The above command change default shell in zsh.
 ```
 sudo systemd-resolve --flush-caches
 ```
+
+## Chmod
+
+Allow us to change the read, write, and execute permission of files and directories.
+
+```
+chmod +x demo.txt
+```
