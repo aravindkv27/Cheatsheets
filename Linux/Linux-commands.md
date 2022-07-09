@@ -173,3 +173,13 @@ Allow us to change the read, write, and execute permission of files and director
 ```
 chmod +x demo.txt
 ```
+
+## UFW
+
+Uncomplicated Firewall is a user-friendly front-end for managing iptables firewall rules and its main goal is to make managing iptables easier or as the name says uncomplicated.
+
+```
+sudo ufw app list
+```
+
+https://linuxize.com/post/how-to-setup-a-firewall-with-ufw-on-ubuntu-18-04/
