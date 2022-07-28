@@ -41,3 +41,28 @@ python manage.py runserver
 ```
 python manage.py startapp app_name
 ```
+
+## Migrate the app
+
+```
+python manage.py migrate
+```
+
+## Making Migration after changing in models.py in App
+```
+python manage.py makemigrations main
+```
+
+## Applying Migration
+
+- Applying the migration once the making migration completes
+
+```
+python manage.py migrate
+```
+
+## Shell
+
+```
+python manage.py shell
+```
