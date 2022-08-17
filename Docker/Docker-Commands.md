@@ -118,3 +118,15 @@ docker exec -it container_id (or) Name /bin/bash
 ```
 docker network create <network_name>
 ```
+
+**Docker Image**
+
+### To remove the docker image
+
+```
+docker image rmi <image-id>
+
+docker image rmi image_name:new_tag
+
+docker rmi -f <Image ID>
+```
