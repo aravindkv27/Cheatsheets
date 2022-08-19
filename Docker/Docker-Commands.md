@@ -130,3 +130,35 @@ docker image rmi image_name:new_tag
 
 docker rmi -f <Image ID>
 ```
+
+### Docker run 
+
+```
+docker run -it -v <host_absolute_path>:<folder path in container> -p 5000:5000 flask_app:1.0
+
+docker run -it -v /Users/venkateshachintalwar/Documents/Online_Projects/Docker:/code -p 5000:5000 flask_app:1.0
+```
+
+### Docker run in Daemon mode
+
+```
+docker run -d -v <path_to_code_directory>:/code -p 5000:5000 flask_app:1.0
+```
+
+### Docker Attach
+
+```
+docker attach <container_id>
+```
+
+### Docker Log
+
+```
+docker logs -f 	 <container_id>
+```
+
+### Check the Port used by Application
+
+```
+lsof -i TCP:<PORT>
+```
