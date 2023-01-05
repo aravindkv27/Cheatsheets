@@ -2,7 +2,7 @@
 
 Azure compute is an on-demand computing service for cloud applications.
 
-It provides computing resources such as,<br>
+It provides computing resources such as, <br>
 - Disk 
 - Memory
 - Networking
