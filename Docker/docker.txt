@@ -1,0 +1,26 @@
+Docker Commands
+Container  
+    is to run the file
+    if we run the docker img it is called container
+
+images 
+    to be share to others 
+    keep it as it is not running
+
+``` docker build -t name ```
+
+-t is tag name
+ 
+ need to go to current dir
+
+ docker build -t name .
+ . - is current dir
+
+to run docker
+    docker run -it docker_file
+
+Show the running container
+    docker container ls 
+
+exec
+    docker exec it container_id
