@@ -70,3 +70,35 @@
 2) Amazon MarketPlace AMIs
 3) My AMIs
 
+### Monitoring Linux EC2 Instances
+
+*Why?*
+
+- Alerts you to issues
+- Cost savings
+- Make informed decisions
+
+*Automated Monitoring*
+
+- System Status
+- Instance status
+- CloudWatch
+- EventBridge
+
+*Manual Monitoring*
+- EC2 Dashboard
+- CloudWatch
+
+### Monitoring with CloudWatch
+
+Collect and Processes raw data from EC2 into readable, near real-time metrics.
+
+- Multiple ways to access
+- Data resolution
+- Alarms and actions
+
+### Third party monitoring tools
+- Intergration
+- Costs
+- Customization
+- Scalability
