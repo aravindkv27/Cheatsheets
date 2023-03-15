@@ -28,6 +28,29 @@ pwd
 ```
 </br>
 
+## Change Directory
+</br>
+
+```
+cd <path>
+```
+
+#### To return to the root directory
+```
+cd /
+```
+#### Other CD flags
+```
+cd - # Switch back to previous directory where you working earlier.
+cd .. # Go back to previous dir
+cd -- # Show the previous dir where you worked.
+cd ~ # Home directory
+cd 'Anime movie' - used to change dir which contains whitespaces.
+cd ../ ../ # Move two dir up from where you are.
+```
+
+
+
 ## Make/Create a Directory
 
 </br>
@@ -64,6 +87,67 @@ rm -f <file-name/dir>
 rm -rf <file-name/dir>
 ```
 **Note:** Be caution with these command.
+
+</br>
+
+## Copy
+
+Copy a file from one location to another.
+```
+cp <source> <destination>
+```
+
+## move
+
+Move or rename a file or directory.
+```
+mv doc document
+```
+
+</br>
+
+## Grep
+
+Used to find or search a regular expression or a string in a text file.
+```
+grep "string" filename
+    (or)
+filename grep "string"
+```
+--color used to color the string
+
+</br>
+
+## Touch
+
+Create a new file.
+```
+touch <path>
+```
+</br>
+
+## tar and zip and unzip
+
+Tar and Zip used for compressing and archiving files.
+```
+tar cvf filename.tar <path>
+```
+
+```
+zip filename.zip files
+```
+
+```
+unzip file.zip
+```
+
+## Echo
+Used to print and write to a file.
+```
+echo "string" > <path>
+
+echo -e "\n" >> filename
+```
 
 </br>
 
@@ -168,10 +252,22 @@ sudo systemd-resolve --flush-caches
 
 ## Chmod
 
-Allow us to change the read, write, and execute permission of files and directories.
+Allow us to change the read(4), write(2), and execute(1) permission of files and directories.
+</br>
+Owner | User | Group </br>
+(rwx)   (r--)   (r--)
 
 ```
 chmod +x demo.txt
+```
+
+</br>
+
+## Ping
+
+Test the connectivity between two computers.
+```
+ping reddit.com
 ```
 
 ## UFW
@@ -183,3 +279,8 @@ sudo ufw app list
 ```
 
 https://linuxize.com/post/how-to-setup-a-firewall-with-ufw-on-ubuntu-18-04/
+
+
+## Other commands
+- head (to print first 10 lines)
+- tail (to print a last 10 lines)
